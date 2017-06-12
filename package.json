@@ -1,0 +1,16 @@
+{
+  "name": "meteor-collection2-core",
+  "private": true,
+  "scripts": {
+    "preinstall": "./initialize",
+    "install": "p-install",
+    "lint": "eslint . --ext js,jsx",
+    "test": "p-start packages-test",
+    "ci-test": "p-start packages-ci-test",
+    "prepare-deps": "p-prepare -p"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pathable-scripts": "https://github.com/pathable/pathable-scripts.git"
+  }
+}
