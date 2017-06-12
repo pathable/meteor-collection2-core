@@ -23,6 +23,6 @@ Package.onUse(function(api) {
   api.use('insecure@1.0.0', {weak: true});
 
   api.mainModule('collection2.js');
-
+  api.addFiles('meteor-schema-index.js');
   api.export('Collection2');
 });
