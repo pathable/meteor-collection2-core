@@ -9,7 +9,7 @@
     "babel-polyfill": "6.23.0",
     "babel-runtime": "6.23.0",
     "meteor-node-stubs": "0.2.5",
-    "simpl-schema": "0.2.3"
+    "simpl-schema": "^0.3.0"
   },
   "devDependencies": {
     "chromedriver": "2.27.3",
