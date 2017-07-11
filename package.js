@@ -1,8 +1,8 @@
 /* global Package */
 
 Package.describe({
-  name: 'meteor-collection2-core',
-  summary: 'Fork of the aldeed:collection2 package.',
+  name: 'pathable-collection2-core',
+  summary: 'Fork of the aldeed:meteor-collection2-core package.',
   version: '0.1.0',
   documentation: 'README.md',
   git: 'https://github.com/pathable/meteor-collection2-core.git'
