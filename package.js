@@ -16,7 +16,6 @@ Package.onUse(function(api) {
   api.use('ejson@1.0.0');
   api.use('raix:eventemitter@0.1.3');
   api.use('ecmascript@0.6.1');
-  api.use('pathable-vendor');
 
   // Allow us to detect 'insecure'.
   api.use('insecure@1.0.0', { weak: true });
